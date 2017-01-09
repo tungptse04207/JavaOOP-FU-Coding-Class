@@ -1,0 +1,27 @@
+I >>> (Cơ bản)
+	Khai báo 1 mảng integer >=15 phần tử (sử dụng ArrayList<> hoặc int[] arr) nhập sẵn dữ liệu vào mảng (không nhập dữ liệu từ bàn phím)
+		1. viết method sắp xếp theo thứ tự mảng tăng dần (hoặc giảm dần) của 1 mảng integer
+			(viết bằng 2 cách : 
+				C1: sử dụng for
+				C2: sử dụng while
+			)
+		2. print phần tử gần max nhất và phần tử gần min nhất
+		3. viết method tính tổng các số chia hết cho 3 và 8
+		4. tính trung bình cộng của các phần tử
+		5. viết method nhập vào 1 xâu kí tự sau đó viết hoa các chữ cái là nguyên âm, viết thường các chữ cái là phụ âm
+
+
+
+II >>> (Nâng cao) 
+	Step 1: Tạo 1 class Employee chứa các trường ( String empName, int age, double salary )
+		- tạo contructor khởi tạo ban đầu
+		- tạo các method getter, setter
+		- tạo method toString() dùng để print information
+			ex: 	Employee name : Nguyen Van A
+				Age: 20
+				Salary: $1200.99
+	Step 2: Tạo 1 class Main, nhập vào từ bàn phím 1 danh sách Employee
+		- print information của từng Employee
+		- sắp xếp và print information của từng Employee theo thứ tự tăng dần ( hoặc giảm dần ) của SALARY
+		- edit information của Employee đầu tiên
+			
